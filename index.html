@@ -1,12 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/jquery.fancybox.min.css">
     <title>Document</title>
 </head>
+
 <body>
-    <h1>4465465465465465465</h1>
+    <button class="Addpoints_btn" data-fancybox data-src="#modal-layout_select">+
+        開始編輯</button>
+    <div class="layout_select" id="modal-layout_select" style="display: none;">
+        <div class="layout_select_title">選擇視窗</div>
+        <div class="layout_content">
+            <ul class="Chooselayout">
+                <li class="Chooselayout_item active">全部</li>
+                <li class="Chooselayout_item">純文字</li>
+                <li class="Chooselayout_item">圖 / 文</li>
+                <li class="Chooselayout_item">連結、檔案</li>
+                <li class="Chooselayout_item">影片、雲端簡報</li>
+            </ul>
+            <div class="Chooselayout_image">
+                <img src="img/Chooselayout_image01.png" alt="" class="Chooselayout_image_item Chooselayout_img">
+                <img src="img/Chooselayout_image02.png" alt="" class="Chooselayout_image_item Chooselayout_img">
+                <img src="img/Chooselayout_image03.png" alt="" class="Chooselayout_image_item Chooselayout_txt">
+                <img src="img/Chooselayout_image04.png" alt="" class="Chooselayout_image_item Chooselayout_link">
+                <img src="img/Chooselayout_image05.png" alt="" class="Chooselayout_image_item Chooselayout_link">
+                <img src="img/Chooselayout_image06.png" alt="" class="Chooselayout_image_item Chooselayout_link">
+                <img src="img/Chooselayout_image07.png" alt="" class="Chooselayout_image_item Chooselayout_video">
+                <img src="img/Chooselayout_image08.png" alt="" class="Chooselayout_image_item Chooselayout_img">
+            </div>
+        </div>
+    </div>
 </body>
+<script src="JS/jquery-2.0.0.min.js"></script>
+<script src="JS/jquery.fancybox.min.js"></script>
+<script src="JS/test.js"></script>
 </html>
